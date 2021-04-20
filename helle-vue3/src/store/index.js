@@ -4,7 +4,7 @@ import app from './modules/app'
 import settings from './modules/settings'
 import user from './modules/user'
 
-export default createStore({
+const store = createStore({
   state: {
   },
   mutations: {
@@ -18,3 +18,4 @@ export default createStore({
   },
   getters
 })
+export default store

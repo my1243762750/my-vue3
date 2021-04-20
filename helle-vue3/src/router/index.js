@@ -173,6 +173,4 @@ export function resetRouter() {
   router.matcher = newRouter.matcher // reset router
 }
 
-export default (app) => {
-  app.use(router)
-}
+export default router
